@@ -3,7 +3,7 @@ const bodyParser = require("body-parser")
 const app = express();
 const https = require("https")
 const cors = require("cors")
-const stripe = require("stripe")('sk_test_51LnVXxJ24zPd1frLALbhRSgohRALTZvKsxWiXRdxzz3AG1UPFSWiz3icKkTmBeV8RRIb3eZkyc4j6XcMouOEYq2000YUXkVgCi');
+const stripe = require("stripe")(process.env.REACT_APP_STRIPE_API_KEY);
 
 // Finds the public folder and tells that it is used for static files.
 app.use(express.static("public"))
