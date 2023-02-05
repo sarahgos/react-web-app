@@ -29,7 +29,7 @@ app.post('/payment', async (req, res) => {
 });
 
 const sendGrid = require('@sendgrid/mail')
-sendGrid.setApiKey('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')
+sendGrid.setApiKey(process.env.REACT_APP_EMAIL_API_KEY)
 
 app.post('/email', (req,res) => {
 

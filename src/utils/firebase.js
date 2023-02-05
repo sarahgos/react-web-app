@@ -3,10 +3,9 @@ import {getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, sig
 import {getFirestore, doc, getDoc, where, setDoc, collection, getDocs, query, updateDoc } from 'firebase/firestore';
 import { getStorage, ref, getDownloadURL } from "firebase/storage";
 
-
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
+  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
   authDomain: "dev-at-deakin-8a26e.firebaseapp.com",
   projectId: "dev-at-deakin-8a26e",
   storageBucket: "dev-at-deakin-8a26e.appspot.com",
