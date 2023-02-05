@@ -1,0 +1,46 @@
+
+.nav-ul {
+    list-style-type: none;
+    background-color:dimgray;
+    height: 40px;
+}
+
+.nav-li {
+    display: inline;
+    font-size: larger;
+    font-weight:bold;
+    padding-top: 8px;
+    color: white;
+}
+
+.nav-left {
+    float: left;
+    display: inline;
+    font-size: larger;
+    font-weight:bold;
+    padding-top: 8px;
+    color: white;
+}
+
+.nav-right {
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: inline;
+    font-size: larger;
+    font-weight:bold;
+    padding-top: 8px;
+    color: white;
+}
+
+.nav-input {
+    width: 500px;
+    padding-top: 1.2px;
+}
+
+.greeting {
+    color:black;
+    float: right;
+    margin-top: 0;
+    margin-right: 10px;
+}

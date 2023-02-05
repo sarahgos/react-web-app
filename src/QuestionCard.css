@@ -1,0 +1,20 @@
+
+.para-question {
+    font-size: medium;
+    margin: 10px;
+    max-width: 300px;
+}
+
+.question-card-div {
+    margin-bottom:50px;
+    margin-left: 10px;
+    margin-right:10px;
+    margin-top:2px;
+    background-color:white;
+    padding:20px;
+    border-radius: 25px;
+}
+
+.close-icon {
+    float:right;
+}

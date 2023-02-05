@@ -1,0 +1,75 @@
+{
+  "name": "homepage",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fluentui/react-component-event-listener": "^0.63.1",
+    "@semantic-ui-react/css-patch": "^1.0.0",
+    "@sendgrid/mail": "^7.7.0",
+    "@stripe/react-stripe-js": "^1.12.0",
+    "@stripe/stripe-js": "^1.38.1",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@testing-library/react": "^13.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "@uiw/codemirror-extensions-langs": "^4.12.3",
+    "@uiw/react-codemirror": "^4.12.3",
+    "bcryptjs": "^2.4.3",
+    "codemirror": "^6.0.1",
+    "concurrently": "^7.4.0",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "env-cmd": "^10.1.0",
+    "express": "^4.18.1",
+    "firebase": "^9.9.4",
+    "jshint": "^2.13.5",
+    "nodemon": "^2.0.20",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.5",
+    "react-firebase-hooks": "^5.0.3",
+    "react-icons": "^4.4.0",
+    "react-images-uploading": "^3.1.7",
+    "react-markdown": "^8.0.3",
+    "react-player": "^2.11.0",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "^5.0.1",
+    "save": "^2.9.0",
+    "semantic-ui-css": "^2.4.1",
+    "semantic-ui-react": "^2.1.3",
+    "stripe": "^10.12.0",
+    "uuidv4": "^6.2.13",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env PORT=3006 react-scripts start",
+    "build": "env-cmd -f .env. react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "server": "nodemon ./backend/server.js",
+    "dev": "concurrently \" npm run server\" \"npm start\"",
+    "postinstall": "semantic-ui-css-patch"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.3.0",
+    "webpack-node-externals": "^3.0.0"
+  }
+}

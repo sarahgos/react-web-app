@@ -1,0 +1,28 @@
+.qcl-div {
+    width:100%;
+    justify-content: center;
+    display:flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.close-icon {
+    float:right;
+}
+
+.filter-buttons {
+    margin-bottom: 30px;
+}
+
+.dimmer { 
+    background-color: rgba(0,0,0,0.2) !important;
+}
+
+.q-div {
+    background-color: white;
+    padding-top: 15px;
+    border-radius: 25px;
+    box-shadow: 1px 1px 5px #888888;
+    margin-left: 50px;
+}

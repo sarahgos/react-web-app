@@ -1,0 +1,42 @@
+.qd-div {
+    background-color:lightgray;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.qd-question {
+    font-size: larger;
+    margin-bottom: 50px;
+}
+
+.qd-title {
+    font-size: x-large;
+    margin-bottom: 30px;
+}
+
+.qd-buttons {
+    display:inline;
+    padding: 30px;
+}
+
+.answers-div {
+    margin-right: 30px;
+}
+
+.answer-list-item {
+    margin-bottom: 10px;
+    background-color: azure;
+    padding:20px;
+    border-radius: 8px;
+    border-style:solid;
+    border-width: 1px;
+}
+
+.answer-list {
+    list-style: none;
+    margin-left: -13px;
+}
+
+.answers-subhead {
+    margin-left: 30px;
+}

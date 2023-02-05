@@ -1,0 +1,11 @@
+.login-error {
+    margin-left: 30px;
+}
+
+.answer-div {
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: lightgray;
+    padding: 10px;
+    border-radius: 5px;
+}

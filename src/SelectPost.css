@@ -1,0 +1,25 @@
+.select-post-div {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    min-height: 700px;
+}
+
+.select-h3 {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.radio {
+    margin-right: 40px;
+}
+
+.select-cont {
+    margin-top: 20px;
+}
+
+.select-heading {
+    color:teal;
+    margin-bottom:-5px;
+}

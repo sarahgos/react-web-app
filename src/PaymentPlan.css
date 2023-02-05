@@ -1,0 +1,30 @@
+.payment-plan-div {
+    width:50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    padding-bottom: 40px;
+    box-shadow: 3px 3px 10px #888888;
+}
+
+.plan-ul {
+    font-size:medium;
+    font-weight: bold;
+    padding-bottom: 10px;
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+}
+
+.plan-li {
+    padding: 5px;
+    color: #545454;
+}
+
+.plan-heading {
+    padding-top: 30px;
+}
+
+.plan-subheading {
+    color: teal;
+}

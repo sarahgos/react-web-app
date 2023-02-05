@@ -1,0 +1,13 @@
+.text {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.input-inline {
+    display: inline-block;
+    width: 94.9%;
+}
+
+.title-cont {
+    margin-top: 20px;
+}

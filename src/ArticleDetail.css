@@ -1,0 +1,27 @@
+.article-detail-div {
+    margin-bottom:50px;
+    max-width: 1200px;
+    margin-top:30px;
+    background-color:white;
+    padding:20px;
+    border-radius: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.star-image {
+    width:20px;
+    height:20px;
+}
+
+.para-detail {
+    margin: 10px;
+    max-width: 100%;
+}
+
+.article-detail-image {
+    max-width: 50%;
+}
+
+.art-col {
+    margin-left: 20px;
+}

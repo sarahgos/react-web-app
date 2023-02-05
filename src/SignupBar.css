@@ -1,0 +1,52 @@
+.signup-bar {
+    background-color: dimgrey;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding:8px;
+}
+
+.signup-left {
+    position: absolute;
+    left:0.5cm;
+}
+
+.signup-right {
+    position: absolute;
+    right:0.5cm;
+}
+
+.signup-input {
+    display: flex;
+    width: 600px;
+    padding-top: 1.2px;
+    margin-left: 200px;
+}
+
+.input {
+    width: 100%;
+}
+
+.sign-up-text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.modal-text {
+    text-align: center;
+}
+
+.sub-modal {
+    padding: 20px;
+}
+
+.error-text {
+    color: red;
+    padding-top: 10px;
+}
+
+.welcome-text {
+    padding-top: 10px;
+}
